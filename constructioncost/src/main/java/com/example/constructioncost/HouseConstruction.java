@@ -21,10 +21,10 @@ public class HouseConstruction{
 				c.getCost(cost,area);break;
 			}
 			else {
-				System.out.println("Select the correct option!!");
+				
 				exit(0);
 			}
-		default:System.out.println("Select the correct material standard!!");exit(0);
+		default:exit(0);
 			
 		}
 		
